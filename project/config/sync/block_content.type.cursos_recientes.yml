@@ -1,0 +1,8 @@
+uuid: 665f22b8-09ea-4e41-89a4-a23777c369a0
+langcode: en
+status: true
+dependencies: {  }
+id: cursos_recientes
+label: 'Cursos Recientes'
+revision: 0
+description: ''

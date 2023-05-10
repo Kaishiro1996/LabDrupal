@@ -1,0 +1,29 @@
+uuid: 7c0f8655-1651-40ba-9636-6f10f13b8a98
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.cursos_recientes
+    - field.storage.block_content.field_recientes
+    - node.type.cursos
+id: block_content.cursos_recientes.field_recientes
+field_name: field_recientes
+entity_type: block_content
+bundle: cursos_recientes
+label: Recientes
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      cursos: cursos
+    sort:
+      field: status
+      direction: ASC
+    auto_create: true
+    auto_create_bundle: ''
+field_type: entity_reference
