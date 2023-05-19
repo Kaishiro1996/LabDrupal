@@ -1,0 +1,35 @@
+uuid: 5f03cf25-e24c-4e00-b4a7-ffc53daf7dd3
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.curso.body
+    - field.field.node.curso.field_codigo_del_curso
+    - field.field.node.curso.field_programa_del_curso
+    - field.field.node.curso.field_relacion_curso
+    - node.type.curso
+  module:
+    - text
+    - user
+id: node.curso.default
+targetEntityType: node
+bundle: curso
+mode: default
+content:
+  field_codigo_del_curso:
+    type: text_trimmed
+    label: above
+    settings:
+      trim_length: 100
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  body: true
+  field_programa_del_curso: true
+  field_relacion_curso: true

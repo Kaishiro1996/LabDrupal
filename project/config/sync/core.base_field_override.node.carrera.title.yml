@@ -1,14 +1,14 @@
-uuid: 03c34739-f494-429c-9aa5-2fff286ec6c1
+uuid: fa26f773-ca96-461a-9d6f-77c2fe8b3012
 langcode: en
 status: true
 dependencies:
   config:
-    - node.type.cursos
-id: node.cursos.title
+    - node.type.carrera
+id: node.carrera.title
 field_name: title
 entity_type: node
-bundle: cursos
-label: 'Nombre del Curso'
+bundle: carrera
+label: 'Nombre de Carrera'
 description: ''
 required: true
 translatable: true

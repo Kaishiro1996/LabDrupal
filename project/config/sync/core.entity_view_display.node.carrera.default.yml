@@ -1,20 +1,18 @@
-uuid: 0a087e71-b50b-48ff-98b0-8419c18ec472
+uuid: 1b2f3c36-f0ca-4cbf-a52e-73be0d9e8625
 langcode: en
 status: true
 dependencies:
   config:
-    - field.field.node.cursos.body
-    - field.field.node.cursos.field_categoria
-    - field.field.node.cursos.field_description
-    - field.field.node.cursos.field_programa
-    - node.type.cursos
+    - field.field.node.carrera.body
+    - field.field.node.carrera.field_campus
+    - field.field.node.carrera.field_ficha_profesional
+    - node.type.carrera
   module:
-    - file
     - text
     - user
-id: node.cursos.default
+id: node.carrera.default
 targetEntityType: node
-bundle: cursos
+bundle: carrera
 mode: default
 content:
   body:
@@ -24,28 +22,22 @@ content:
     third_party_settings: {  }
     weight: 101
     region: content
-  field_categoria:
+  field_campus:
     type: entity_reference_label
     label: above
     settings:
       link: true
     third_party_settings: {  }
-    weight: 105
-    region: content
-  field_description:
-    type: text_default
-    label: above
-    settings: {  }
-    third_party_settings: {  }
     weight: 103
     region: content
-  field_programa:
-    type: file_default
+  field_ficha_profesional:
+    type: entity_reference_entity_view
     label: above
     settings:
-      use_description_as_link_text: true
+      view_mode: default
+      link: false
     third_party_settings: {  }
-    weight: 104
+    weight: 102
     region: content
   links:
     settings: {  }

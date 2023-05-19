@@ -1,0 +1,21 @@
+uuid: 7a8a3d8c-ab2d-488c-96fe-4b9cef1f659e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_codigo_del_curso
+    - node.type.curso
+  module:
+    - text
+id: node.curso.field_codigo_del_curso
+field_name: field_codigo_del_curso
+entity_type: node
+bundle: curso
+label: 'Código del curso'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

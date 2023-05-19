@@ -1,17 +1,17 @@
-uuid: 85b8f90d-2b3d-4cab-8697-c3b948dd0c8d
+uuid: adf46d25-4ed3-4d60-960d-9216a6f2c203
 langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.node.field_programa
-    - node.type.cursos
+    - field.storage.node.field_programa_del_curso
+    - node.type.curso
   module:
     - file
-id: node.cursos.field_programa
-field_name: field_programa
+id: node.curso.field_programa_del_curso
+field_name: field_programa_del_curso
 entity_type: node
-bundle: cursos
-label: Programa
+bundle: curso
+label: 'Programa del Curso'
 description: ''
 required: false
 translatable: false

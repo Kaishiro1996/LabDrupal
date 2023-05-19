@@ -1,4 +1,4 @@
-uuid: e463e2e6-2243-4994-8f8e-e81d71374262
+uuid: 57fd7dd1-dc4b-43a8-a1e1-1be802781419
 langcode: en
 status: true
 dependencies:
@@ -6,10 +6,11 @@ dependencies:
     - menu_ui
 third_party_settings:
   menu_ui:
-    available_menus: {  }
-    parent: ''
-name: Cursos
-type: cursos
+    available_menus:
+      - main
+    parent: 'main:'
+name: Carrera
+type: carrera
 description: ''
 help: ''
 new_revision: true

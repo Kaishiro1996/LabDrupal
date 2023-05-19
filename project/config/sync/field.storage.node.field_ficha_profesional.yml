@@ -1,16 +1,16 @@
-uuid: 1f78c0bf-464a-45b9-8d15-90194925f7f8
+uuid: 00775814-b114-45fb-90c1-7aa88ee2e00d
 langcode: en
 status: true
 dependencies:
   module:
+    - media
     - node
-    - taxonomy
-id: node.field_categoria
-field_name: field_categoria
+id: node.field_ficha_profesional
+field_name: field_ficha_profesional
 entity_type: node
 type: entity_reference
 settings:
-  target_type: taxonomy_term
+  target_type: media
 module: core
 locked: false
 cardinality: 1

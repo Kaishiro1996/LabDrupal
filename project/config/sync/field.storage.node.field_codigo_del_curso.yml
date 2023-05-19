@@ -1,12 +1,12 @@
-uuid: 23740a4a-94aa-46ed-994a-ba2000fd010e
+uuid: 0f532652-5800-4097-bfab-c54bb8b66a37
 langcode: en
 status: true
 dependencies:
   module:
     - node
     - text
-id: node.field_description
-field_name: field_description
+id: node.field_codigo_del_curso
+field_name: field_codigo_del_curso
 entity_type: node
 type: text
 settings:

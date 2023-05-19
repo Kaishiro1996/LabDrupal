@@ -1,8 +1,0 @@
-uuid: 37884116-f1b4-4a36-acee-02335b1f1da7
-langcode: en
-status: true
-dependencies: {  }
-name: Categoria
-vid: categoria
-description: 'Ej: Ciencias Sociales, Ingenierias...'
-weight: 0

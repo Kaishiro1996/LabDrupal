@@ -1,19 +1,19 @@
-uuid: 019dceff-a5bc-40f1-8ab0-51f464ff89bb
+uuid: 8d61a279-3899-4e51-b216-548dfb695b2d
 langcode: en
 status: true
 dependencies:
   config:
     - field.storage.node.body
-    - node.type.cursos
+    - node.type.carrera
   module:
     - text
-id: node.cursos.body
+id: node.carrera.body
 field_name: body
 entity_type: node
-bundle: cursos
-label: Body
+bundle: carrera
+label: 'Descripcion de Carrera'
 description: ''
-required: false
+required: true
 translatable: true
 default_value: {  }
 default_value_callback: ''

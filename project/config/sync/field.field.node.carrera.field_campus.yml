@@ -1,16 +1,15 @@
-uuid: 64503210-8605-433c-ad05-975d9142546a
+uuid: ecefb752-ef17-4ce2-af92-d77faf222637
 langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.node.field_categoria
-    - node.type.cursos
-    - taxonomy.vocabulary.categoria
-id: node.cursos.field_categoria
-field_name: field_categoria
+    - field.storage.node.field_campus
+    - node.type.carrera
+id: node.carrera.field_campus
+field_name: field_campus
 entity_type: node
-bundle: cursos
-label: Categoria
+bundle: carrera
+label: 'Campus de la Carrera'
 description: ''
 required: false
 translatable: false
@@ -19,8 +18,7 @@ default_value_callback: ''
 settings:
   handler: 'default:taxonomy_term'
   handler_settings:
-    target_bundles:
-      categoria: categoria
+    target_bundles: {  }
     sort:
       field: name
       direction: asc
